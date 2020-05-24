@@ -378,11 +378,12 @@ int main() {
                         break;
                     }
                     if (e.key.keysym.sym == SDLK_KP_PLUS) {
-                        newWindVelocity += .01f;
+                        newWindVelocity += .02f;
                         break;
                     }
                     if (e.key.keysym.sym == SDLK_KP_MINUS) {
-                        newWindVelocity -= .01f;
+                        newWindVelocity -= .02f;
+                        newWindVelocity = glm::max(newWindVelocity, 0.f);
                         break;
                     }
                 case SDL_MOUSEBUTTONDOWN:
