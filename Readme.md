@@ -2,7 +2,7 @@
 
 > Florian Torres
 
-![Cloth Simulation](./images/cloth_simulation_03.png)
+![Cloth Simulation](./images/cloth_simulation_01.png)
 
 ## Install
 
