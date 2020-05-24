@@ -13,7 +13,7 @@ mkdir build
 cd build
 cmake ..
 make -j
-src/cloth-simulation
+./flag
 ```
 
 ## Commands
@@ -25,6 +25,6 @@ src/cloth-simulation
 
 ## Features
 
-- Flag Simulation (LeapFrog)
+- Cloth Simulation : Hook / Leapfrog
 - Sphere Obstacles
-- Auto-collision
+- Auto-collisions
